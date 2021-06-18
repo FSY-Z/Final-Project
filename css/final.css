@@ -1,0 +1,291 @@
+.navbar {
+  margin-bottom: 50px;
+}
+.navbar-expand-lg .navbar-collapse {
+  flex-direction: row-reverse;
+  margin-right: 50px;
+}
+
+.navbar-brand img {
+  width: 100px;
+  height: 80px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.navbar-nav a {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: purple;
+  border-bottom: 5px solid purple;
+}
+
+#about {
+  margin-bottom: 100px;
+}
+
+.left-header {
+  text-align: center;
+}
+.left-header img {
+  width: 400px;
+  border-radius: 50%;
+  border: 15px solid #150025;
+}
+
+.left-header img:hover {
+  box-shadow: 1px 1px 10px 10px #2d0a4a54;
+}
+
+.right-header {
+  display: flex;
+  align-items: center;
+}
+.right-header h1 {
+  color: #150025;
+  margin-bottom: 10px;
+}
+
+.right-header h5 {
+  color: gray;
+  margin-bottom: 50px;
+  font-style: italic;
+}
+
+.right-header a {
+  background-color: #150025;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.right-header a:hover {
+  box-shadow: 1px 1px 10px 10px #2c0a4854;
+}
+
+#banner {
+  background-image: url(../res/banner3.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+}
+
+#work {
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#work h2 {
+  color: white;
+  text-align: center;
+}
+
+#work h6 {
+  color: lightgray;
+  text-align: center;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+#work .card .card-body {
+  position: absolute;
+  bottom: 0;
+  color: white;
+}
+
+#work .card {
+  border: none;
+}
+
+#work .card .card-title {
+  font-size: 24px;
+  padding-bottom: 10px;
+}
+
+#work .card .card-text {
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+#work .card:hover {
+  box-shadow: 1px 1px 10px 10px #371e4b54;
+}
+
+.first-card {
+  background-image: url(../res/rainbow.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.first-card:hover {
+  background: linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/rainbow.jpg");
+  background: -webkit-linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/rainbow.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.second-card {
+  background-image: url(../res/discord.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.second-card:hover {
+  background: linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/discord.jpg");
+  background: -webkit-linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/discord.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.third-card {
+  background-image: url(../res/circles.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.third-card:hover {
+  background: linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/circles.jpg");
+  background: -webkit-linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/circles.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.forth-card {
+  background-image: url(../res/banner.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  display: flex;
+  border-radius: 20px;
+}
+
+.forth-card:hover {
+  background: linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/banner.jpg");
+  background: -webkit-linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/banner.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#clients {
+  background: linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/banner5.jpg");
+  background: -webkit-linear-gradient(rgba(45, 10, 74, 0.103), #150025),
+    url("../res/banner5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#clients h2 {
+  text-align: left;
+}
+
+#clients h6 {
+  text-align: center;
+  font-style: italic;
+  margin-top: 30px;
+  color: white;
+}
+
+#clients .reviews {
+  text-align: center;
+}
+
+#clients {
+  background-color: #150025;
+}
+
+.clients-left {
+  background-color: black;
+  height: 100%;
+  padding-top: 130px;
+  padding-bottom: 190px;
+  color: white;
+}
+
+#clients h5 {
+  text-align: left;
+  font-style: italic;
+}
+
+.clients-right .item {
+  color: white;
+  padding-top: 50px;
+}
+
+.clients-right .item img {
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#iframe-container {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.iframe-container iframe {
+  background-color: #2b124d;
+  width: 1100px;
+  height: 500px;
+}
+.iframe-text {
+    text-align: center;
+}
+
+#contact {
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#contact button {
+    background-color: #150025;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#contact input {
+    background: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+}
+
+#contact button:hover {
+    box-shadow: 1px 1px 10px 10px #2c0a4854;
+}
